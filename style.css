@@ -1,0 +1,20 @@
+h1{
+
+color: chartreuse;
+font-family: sans-serif;
+display: inline,solid;
+margin-left: 5cm;
+font-size: 2rem;
+}
+body{
+background-color: black;
+
+}
+
+
+.color{
+color: aqua;
+margin-left: 5cm;
+display: inline,solid;
+
+}
