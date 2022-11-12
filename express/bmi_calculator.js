@@ -21,13 +21,13 @@ app.get("/",function (req,res) {
 
 app.post("/",function (req,res) {
 
-    const num1=Number(req.body.num1);
-    const num2=Number(req.body.num2);
-    const result=Number(num1 + num2);
+    const num1=Number(req.body.weight);
+    const num2=Number(req.body.height);
+    const result= Number(num1 /(num2*num2));
     console.log(num1);
     console.log(num2);
     console.log(result);
-    res.send("the calculation is : " + result );
+    res.send("your BMI is : " + result );
 
 })
 
